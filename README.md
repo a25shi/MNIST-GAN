@@ -3,7 +3,7 @@ GAN made in PyTorch, trained on MNIST dataset for 3500 iterations using batch si
 
 # Sample of training images:
 
-![Untitled](https://github.com/a25shi/MNIST-GAN/assets/64557388/e472e497-4c06-4a80-96a3-b2778eb07b86)
+<img src="https://github.com/a25shi/MNIST-GAN/assets/64557388/e472e497-4c06-4a80-96a3-b2778eb07b86"\>
 
 # Sample of final generated images:
 
