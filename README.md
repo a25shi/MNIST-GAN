@@ -3,7 +3,7 @@ A Generative Adversarial Network (GAN) consists of two neural networks, the Gene
 
 In this specific implementation, the GAN is built using the deep learning framework PyTorch and is based off of the DCGAN network laid out in the paper "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks". It is trained on the MNIST dataset, a collection of handwritten digit images.
 
-The result of this training process is a Generator network that can produce high-quality images of handwritten digits that weren't originally part of the MNIST dataset but look as if they could have been.
+The result of training on this dataset is a Generator network that can produce high-quality images of handwritten digits that weren't originally part of the MNIST dataset but look as if they could have been.
 
 # Issues with GAN
 
