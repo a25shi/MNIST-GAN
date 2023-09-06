@@ -1,5 +1,21 @@
 # MNIST-GAN
-GAN made in PyTorch, trained on MNIST dataset for 3500 iterations using batch size of 128
+A Generative Adversarial Network (GAN) consists of two neural networks, the Generator and the Discriminator, that are trained together in a competitive setup. The goal of the Generator is to produce artificial images that resemble real ones, while the Discriminator tries to distinguish between real and fake images. Training continues in this adversarial manner until the Generator produces images that are indistinguishable from real images, at least from the perspective of the Discriminator.
+
+In this specific implementation, the GAN is built using the deep learning framework PyTorch. It is trained on the MNIST dataset, a collection of handwritten digit images.
+
+**Dataset:** The MNIST dataset contains 60,000 training images and 10,000 testing images of handwritten digits (0 through 9) in grayscale, and each image is 28x28 pixels.
+
+**Generator:** Takes a random noise vector as input and produces a 28x28 pixel image as output that tries to mimic the MNIST digits.
+
+**Discriminator:** Accepts a 28x28 pixel image as input (either a real image from MNIST or a fake image produced by the Generator) and tries to classify it as real or fake.
+
+Training Process: During training, the Generator attempts to produce images that the Discriminator will classify as real. In turn, the Discriminator tries to get better at distinguishing between real MNIST images and the fakes produced by the Generator. As training progresses, the Generator becomes more proficient at producing images that resemble actual handwritten digits from the MNIST dataset.
+
+The result of this training process is a Generator network that can produce high-quality images of handwritten digits that weren't originally part of the MNIST dataset but look as if they could have been.
+
+# Issues with GAN
+
+A common issue with with GANs is called mode collapse, when the generator discovers a particular output (or a small set of outputs) that is consistently deemed "realistic" by the discriminator, and then it excessively produces only that output. This problem is mitigated in our network by using batch norm layers, as well as the LeakyReLU activation function to promote healthy gradient flow.
 
 # Sample of training images:
 
