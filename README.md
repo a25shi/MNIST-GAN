@@ -1,7 +1,7 @@
 # MNIST-GAN
 A Generative Adversarial Network (GAN) consists of two neural networks, the Generator and the Discriminator, that are trained together in a competitive setup. The goal of the Generator is to produce artificial images that resemble real ones, while the Discriminator tries to distinguish between real and fake images. Training continues in this adversarial manner until the Generator produces images that are indistinguishable from real images, at least from the perspective of the Discriminator.
 
-In this specific implementation, the GAN is built using the deep learning framework PyTorch and is based off of the DCGAN network laid out in its respective paper. It is trained on the MNIST dataset, a collection of handwritten digit images.
+In this specific implementation, the GAN is built using the deep learning framework PyTorch and is based off of the DCGAN network laid out in the paper "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks". It is trained on the MNIST dataset, a collection of handwritten digit images.
 
 Training Process: During training, the Generator attempts to produce images that the Discriminator will classify as real. In turn, the Discriminator tries to get better at distinguishing between real MNIST images and the fakes produced by the Generator. As training progresses, the Generator becomes more proficient at producing images that resemble actual handwritten digits from the MNIST dataset.
 
