@@ -11,7 +11,13 @@ The result of training on this dataset is a Generator network that can produce h
 
 # Issues with GAN
 
-A common issue with with GANs is called mode collapse, when the generator discovers a particular output (or a small set of outputs) that is consistently deemed "realistic" by the discriminator, and then it excessively produces only that output. This problem is mitigated in our network by using batch norm layers, as well as the LeakyReLU activation function to promote healthy gradient flow.
+A common issue with with GANs is called mode collapse, when the generator discovers a particular output (or a small set of outputs) that is consistently deemed "realistic" by the discriminator, and then it excessively produces only that output. 
+
+** EXAMPLE **
+
+<img src="https://github.com/a25shi/MNIST-GAN/assets/64557388/a0d73294-7f8c-48fe-8032-e83ea5ccaf49"/>
+
+This problem is mitigated in our network by using batch norm layers, as well as the LeakyReLU activation function to promote healthy gradient flow.
 
 # Sample of training images:
 
