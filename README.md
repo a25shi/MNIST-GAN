@@ -1,7 +1,5 @@
 # Image Timelapse
-![giphy](https://github.com/a25shi/MNIST-GAN/assets/64557388/5bf05421-7704-4807-bf22-5d653cd48465)
-
-
+![giphy](https://github.com/a25shi/MNIST-GAN/assets/64557388/9fe4aac2-37cd-41c8-9246-0097e3a09419)
 
 # MNIST-GAN
 A Generative Adversarial Network (GAN) consists of two neural networks, the Generator and the Discriminator, that are trained together in a competitive setup. The goal of the Generator is to produce artificial images that resemble real ones, while the Discriminator tries to distinguish between real and fake images. Training continues in this adversarial manner until the Generator produces images that are indistinguishable from real images, at least from the perspective of the Discriminator.
@@ -18,10 +16,9 @@ A common issue with with GANs is called mode collapse, when the generator discov
 
 <img src="https://github.com/a25shi/MNIST-GAN/assets/64557388/0fa50bd4-4fdc-452b-bd90-34666abeadca" width="400" height="400"/>
 
-
 # Sample of final generated images:
 
-<img src="https://github.com/a25shi/MNIST-GAN/assets/64557388/59fe35b3-0c1b-4a8c-84ec-7174a59baed5" width="400" height="400"/>
+<img src="https://github.com/a25shi/MNIST-GAN/assets/64557388/a4ecbab0-76fc-439c-9966-be4aab0f8913" width="400" height="400"/>
 
 # Loss Graph
 ![Untitled](https://github.com/a25shi/MNIST-GAN/assets/64557388/84169bf6-e99e-40be-8ba4-6bef9671cba2)
