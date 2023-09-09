@@ -22,6 +22,6 @@ A common issue with with GANs is called mode collapse, when the generator discov
 <img src="https://github.com/a25shi/MNIST-GAN/assets/64557388/a4ecbab0-76fc-439c-9966-be4aab0f8913" width="400" height="400"/>
 
 # Loss Graph
-![Untitled](https://github.com/a25shi/MNIST-GAN/assets/64557388/84169bf6-e99e-40be-8ba4-6bef9671cba2)
+![Untitled](https://github.com/a25shi/MNIST-GAN/assets/64557388/4624da27-d0a7-4153-b903-89a1f1e47b40)
 
 
