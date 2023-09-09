@@ -1,5 +1,6 @@
 # Image Timelapse
-![giphy](https://github.com/a25shi/MNIST-GAN/assets/64557388/9fe4aac2-37cd-41c8-9246-0097e3a09419)
+![giphy](https://github.com/a25shi/MNIST-GAN/assets/64557388/2e9c93c3-0e93-4a5d-a286-1a7490a0a4e3)
+
 
 # MNIST-GAN
 A Generative Adversarial Network (GAN) consists of two neural networks, the Generator and the Discriminator, that are trained together in a competitive setup. The goal of the Generator is to produce artificial images that resemble real ones, while the Discriminator tries to distinguish between real and fake images. Training continues in this adversarial manner until the Generator produces images that are indistinguishable from real images, at least from the perspective of the Discriminator.
